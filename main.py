@@ -166,4 +166,3 @@ header = 'UF;ANO;MES;CHUVA;DENGUE'
 resultado | 'Criar arquivo CSV' >> WriteToText('resultado', file_name_suffix = '.csv', header = header )
 
 pipeline.run()
-
